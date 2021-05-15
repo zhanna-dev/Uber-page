@@ -1,0 +1,21 @@
+@media (max-width: 880px) {
+  .world-title {
+    font-size: 34px;
+  }
+}
+@media (max-width: 600px) {
+  .world {
+    min-height: 360px;
+    .container {
+      min-height: 360px;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .world-title {
+    font-size: 28px;
+  }
+  .world-link {
+    text-align: center;
+  }
+}

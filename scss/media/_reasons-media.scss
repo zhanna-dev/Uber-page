@@ -1,0 +1,46 @@
+@media (max-width: 1050px) {
+  .reasons-items {
+    justify-content: center;
+  }
+  .reasons-item {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 880px) {
+  .reasons-title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 730px) {
+  .reasons-title {
+    font-size: 22px;
+  }
+  .reasons-item-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .reasons-title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .reasons-item-circle {
+    width: 95px;
+    height: 95px;
+  }
+
+  .reasons-item {
+    flex-direction: column;
+  }
+
+  .reasons-item-text {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .reasons-item-text {
+    width: 295px;
+  }
+}

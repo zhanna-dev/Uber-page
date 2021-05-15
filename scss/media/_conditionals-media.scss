@@ -1,0 +1,27 @@
+@media (max-width: 880px) {
+  .conditionals {
+    padding: 60px 0 80px;
+  }
+
+  .conditionals-items {
+    justify-content: center;
+  }
+
+  .conditionals-title {
+    font-size: 34px;
+  }
+
+  .conditionals-item {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .conditionals-title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 430px) {
+  .conditionals-item-list li {
+    font-size: 14px;
+  }
+}

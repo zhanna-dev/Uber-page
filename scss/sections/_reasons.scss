@@ -1,0 +1,36 @@
+.reasons {
+  padding: 18px 0 45px;
+}
+
+.reasons-title {
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reasons-item {
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reasons-item-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #2d9cdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasons-item-text {
+  width: 370px;
+}

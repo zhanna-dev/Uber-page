@@ -1,0 +1,83 @@
+.app {
+  background: url(../img/backgraunds/app-bgs/app-big_bg.png) center center/cover
+    no-repeat;
+  padding: 20px 0 60px;
+}
+
+.app-title {
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 33px;
+}
+
+.app-subtitle {
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+.app-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.app-item {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 320px;
+  height: 280px;
+  position: relative;
+
+  &-1 {
+    background: url(../img/backgraunds/app-bgs/app-bg1.png) center center/cover
+      no-repeat;
+  }
+  &-2 {
+    background: url(../img/backgraunds/app-bgs/app-bg2.png) center center/cover
+      no-repeat;
+  }
+  &-3 {
+    background: url(../img/backgraunds/app-bgs/app-bg3.png) center center/cover
+      no-repeat;
+  }
+  &-4 {
+    background: url(../img/backgraunds/app-bgs/app-bg4.png) center center/cover
+      no-repeat;
+  }
+  &-5 {
+    background: url(../img/backgraunds/app-bgs/app-bg5.png) center center/cover
+      no-repeat;
+  }
+  &-6 {
+    background: url(../img/backgraunds/app-bgs/app-bg6.png) center center/cover
+      no-repeat;
+  }
+}
+
+.app-item-title {
+  font-size: 24px;
+  width: 280px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 82px auto 0;
+}
+
+.app-item-link {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #000000;
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  font-size: 32px;
+  color: #1eacc7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

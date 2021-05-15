@@ -1,0 +1,53 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 18px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.caption {
+  font-size: 11px;
+  text-align: center;
+  background: #000000;
+  width: 115px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 7px 0;
+  &-white {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+@import "sections/header";
+@import "sections/promo";
+@import "sections/reasons";
+@import "sections/app";
+@import "sections/conditionals";
+@import "sections/world";
+@import "sections/choice";
+@import "sections/footer";
+@import "media/media";
